@@ -1,0 +1,7 @@
+models: 
+  - name: stg_bad_bunny_track
+    description: one bad bunny song per row
+    columns: 
+      - name: music_id
+      - name: is_hit
+        description: 80 threshold to determine if the song is a hit. 

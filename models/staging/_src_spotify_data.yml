@@ -1,0 +1,22 @@
+sources:
+  - name: spotify_data
+    description: API spotify 
+    database: spotify-data-genre
+    schema: spotify_data
+    tables: 
+      - name: raw_bad_bunny_track
+        description: retrieve all tracks from Bad Bunny
+        columns: 
+          - name: id
+            description: "Spotify track ID"
+            data_tests:
+              - unique
+              - not_null
+          - name: name
+            description: "Track name"
+          - name: popularity
+            description: "Spotify track popularity"
+          - name: release_date
+            description: "Track release date"
+          - name: album_name
+            description: "Album the track belongs to"

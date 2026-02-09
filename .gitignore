@@ -1,0 +1,21 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+.env
+
+# dbt
+target/
+logs/
+dbt_packages/
+dbt_internal_packages/
+
+# OS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# credentials
+*.json
+profiles.yml
